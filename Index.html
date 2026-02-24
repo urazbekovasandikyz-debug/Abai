@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абай Құнанбаев</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fefefe;
+            color: #1e1e1e;
+            line-height: 1.5;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: #1e3c5c;
+        }
+        p {
+            text-align: justify;
+            margin: 20px 0;
+        }
+        .image-wrapper {
+            text-align: center;
+            margin: 40px 0 30px 0;
+        }
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            display: inline-block;
+        }
+        .image-wrapper figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #4a4a4a;
+            text-align: center;
+        }
+        audio {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+            margin: 30px auto 20px;
+            border-radius: 30px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #6b6b6b;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Тақырып ортада, мәтін ені бойынша тураланған -->
+    <h1>Өмірбаян</h1>
+
+    <p>Абай Құнанбаев (1845, Шығыс Қазақстан облысы, Абай ауданы – 1904, сонда) – ұлы ақын, ағартушы, қазақ жазба әдебиетінің негізін қалаушы, философ, композитор, аудармашы және саяси қайраткер. Ол қазақ халқының рухани көсемі ретінде танылып, шығармаларында әлеуметтік әділетсіздік, надандық, ғылым-білім мәселелерін көтерді. Абайдың қара сөздері, өлеңдері мен аудармалары қазақ әдебиетінің алтын қорына енді. Оның есімі Қазақстанда және әлемде құрметпен аталады.</p>
+
+    <!-- 2. Сурет мәтіннен кейін, ортада -->
+    <div class="image-wrapper">
+        <!-- Төмендегі сурет орнына өз серверіңіздегі суреттің атын жазуға болады (мысалы, "abai.jpg") -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Abai_Kunanbayev.jpg/800px-Abai_Kunanbayev.jpg" 
+             alt="Абай Құнанбаевтың портреті">
+        <figcaption>Абай Құнанбаев (шамамен 1890 жыл)</figcaption>
+    </div>
+
+    <!-- 3. «Желсіз түнде жарық ай» музыкасы -->
+    <audio controls>
+        <!-- Егер музыка файлы жергілікті болса, "zhelsiz_tunde.mp3" деп көрсетіңіз -->
+        <source src="https://example.com/zhelsiz_tunde.mp3" type="audio/mpeg">
+        <source src="zhelsiz_tunde.ogg" type="audio/ogg">
+        Сіздің браузеріңіз аудио элементін қолдамайды.
+    </audio>
+
+    <footer>
+        © 2026 Жеке жұмыс. Абай Құнанбаевқа арналған веб-бет.
+    </footer>
+
+</body>
+</html>
